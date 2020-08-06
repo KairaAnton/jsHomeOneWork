@@ -266,22 +266,26 @@ for(; ;){
 
 */
 
-do(result)
-while(result){
-    if(result === 6){
-        alert('Верно');
-    } else{ 
-        result = +prompt('Неверно попробуйте еще');
-    }
-
-}
-
 
 
 //  Таска на функции
+/*
 
+let numberOfYears = +prompt('Сколько вам лет');
 
-//function isAdult()
+let check = Boolean;
 
+function isAdult(){
+        if(numberOfYears >= 18){
+            check = true;
+        } else{
+            check = false;
+        }
+        alert('isAdult' + '(' + numberOfYears + ');' + ' // ' + check);
+}
 
+isAdult();
 
+*/
+
+// если я правильно понял задание))
