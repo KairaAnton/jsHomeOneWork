@@ -86,7 +86,7 @@ console.log(i * 60);
 // 4
 
 let greeting = 'Hello, ';
-let UserName = prompt('Enter your name');
+let userName = prompt('Enter your name');
 
 console.log(greeting + UserName + '!');
 
@@ -127,7 +127,6 @@ if(test === true){
 
 // 3
 
-
 let sum = +prompt('Введите сумму покупки');
 
 if(sum <= 500){
@@ -135,11 +134,12 @@ if(sum <= 500){
 } else if(sum > 500 && sum <= 800){
     sum = sum - sum * 0.03;
     console.log(sum);
-} else{
-    sum = sum - sum * 0.05;
+} else if(sum > 800){
+    sum = sum - sum * 0.05
     console.log(sum);
+ } else {
+    alert('Некорректный ввод');
 }
-
 
 */
 
@@ -158,12 +158,7 @@ while( i !== -1){
     i--;
 }
 
-do(console.log(i),
-i--)
- while(i !== 0){
-    console.log(i);
     
-}
 
 
 for(i;i>-1;i--){
@@ -234,10 +229,6 @@ for(i = 0; i <= 100; i++){
 }
 
 
-do(i++, sum += i)
-while(i < 100){
-    console.log(sum);
-}
 
 */
 
@@ -245,7 +236,7 @@ while(i < 100){
 /*
 
 
-let result = +prompt('Введите результат');
+let result = +prompt('Введите результат вычисления '2+2*2'');
 
 
 while(result){
@@ -271,11 +262,14 @@ for(; ;){
 //  Таска на функции
 /*
 
-let numberOfYears = +prompt('Сколько вам лет');
 
-let check = Boolean;
 
 function isAdult(){
+
+    let numberOfYears = +prompt('Сколько вам лет');
+
+    let check;
+
         if(numberOfYears >= 18){
             check = true;
         } else{
@@ -286,6 +280,46 @@ function isAdult(){
 
 isAdult();
 
-*/
 
-// если я правильно понял задание))
+
+let result = +prompt('Введите результат вычисления "2+2*2"');
+
+do{
+    if(result === 6){
+        alert('Верно');
+    } else{
+        result = +prompt('Неверно! Попробуйте еще раз');
+} }while(result);
+
+
+
+
+
+let i = 25;
+
+do{console.log(i),
+i--}
+ while(i !== -1);
+ 
+
+ let i = 0;
+
+
+do{ i++
+    if(i % 5 === 0){
+    console.log(i);
+   }}
+while(i < 50);
+
+let i = 0
+let sum = 0;
+
+
+do{
+    i++;
+    sum += i;
+    console.log(sum);
+}
+while(i < 100);
+    
+*/
