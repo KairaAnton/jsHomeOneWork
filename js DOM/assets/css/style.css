@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vh;
+    border: 2px solid red;
+}
+
+
+#imageOne{
+    display: flex;
+    position: relative;
+    height: 90vh;
+    
+  width: 90vh;
+  z-index: 1;
+}
+#imageTwo{
+    position: relative;
+    height: 90vh;
+  width: 90vh;
+  z-index: 2;
+}
+
+ /* img:hover{
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fklike.net%2Fuploads%2Fposts%2F2019-03%2Fmedium%2F1551512888_2.jpg&imgrefurl=https%3A%2F%2Fklike.net%2F1346-krasivye-kartinki-na-avu-50-foto.html&tbnid=FKIjRxn_MVIeSM&vet=12ahUKEwiI_6-c687rAhUOuqQKHdpnA24QMygBegUIARCVAQ..i&docid=aU-BdY9Ylbvz2M&w=650&h=549&q=rfhnbyrb&ved=2ahUKEwiI_6-c687rAhUOuqQKHdpnA24QMygBegUIARCVAQ');
+  height: 90vh;
+  width: 90vh;
+}  */
